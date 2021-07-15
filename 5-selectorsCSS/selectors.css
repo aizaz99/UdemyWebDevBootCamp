@@ -1,4 +1,5 @@
-/* Universal and Element Selectors,ID Selector , Class selector , Descendet selector, Adjacent and Direct Descendet Selector*/
+/* Universal and Element Selectors,ID Selector , Class selector , Descendet selector, Adjacent and Direct Descendet Selector attriubute selector, psuedo classes,psuedo elements
+inline styles and important */
 *{
     background-color: cyan;
 
@@ -33,6 +34,7 @@ span{
 }
 .post a {
     color:#457b9d;
+    
 }
 
 footer a {
@@ -46,4 +48,54 @@ input + button {
 h2 + button{
     font: size 20px;
     background-color: magenta;
+}
+
+footer > a{
+    color:#a8dadc;
+}
+
+input[type ="password"] {
+    color:greenyellow;
+}
+
+section[class="post"] {
+    background-color: purple;
+}
+
+a[href*= "google"]{
+    color: magenta;
+}
+
+.post button:hover{
+    background-color:#e63946 ;
+    color: #f1faee;
+
+}
+
+.post a:hover{
+    text-decoration: underline;
+}
+
+.post button:active{
+    background-color: #02c309;
+}
+
+.post:nth-of-type(3n){
+    background-color: #dfe8dc;
+}
+
+h2::first-letter{
+    font-size: 50px;
+}
+
+p::first-line{
+    color:purple;
+}
+
+p::selection{
+    background-color: #fcb4fc;
+}
+
+button{
+    background-color: magenta !important;
 }
