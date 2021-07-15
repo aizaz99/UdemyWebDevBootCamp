@@ -1,0 +1,20 @@
+/* Color Properties Color systems RGB, Hex Colors*/
+
+h2{
+    color:#5FCFFC;
+    background-color:rgb(89,151,0);
+}
+
+button{
+    color:magenta;
+    background-color: cyan;
+}
+
+p{
+    color: olive;
+    
+}
+
+body{
+    background-color: #cc55ee;
+}
