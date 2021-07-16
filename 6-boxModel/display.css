@@ -1,0 +1,40 @@
+h1{
+    background-color: palegoldenrod;
+    border:1px solid black;
+    display: inline;
+
+    font-size: 40px;
+    line-height: 200%;
+    
+}
+
+span{
+    background-color: paleturquoise;
+    border:1px solid black;
+    display:block;
+    padding: 50px;
+    margin:50px;
+}
+
+div{
+    height:200px;
+    width: 200px;
+    background-color: olivedrab;
+    border:5px solid black;
+    display: inline-block ;
+    margin:50px;
+
+}
+
+section{
+    background-color: #6d6875;
+    width: 800px;
+    height: 800px;
+}
+
+div{
+    background-color: #e5989b;
+    width: 50%;
+    height: 50%;
+}
+

@@ -1,3 +1,7 @@
+body{
+    margin: 0px;
+}
+
 div{
     width: 200px;
     height:200px;
@@ -7,6 +11,13 @@ div{
 h1{
     background-color: pink;
     width: 100px;
+    padding-left: 100px;
+    padding-top: 50px;
+    margin:0px;
+}
+span{
+    margin-left: 30px;
+    margin-top:30px;
 }
 
 #one {
@@ -15,6 +26,9 @@ h1{
     border-color: black;
     border-style: solid;
     box-sizing: border-box;
+    margin: left 50px;
+    margin-bottom:100px;
+
 
 }
 
@@ -25,6 +39,8 @@ h1{
     border-width: 3px;
     border-style: dashed;
     border-left-width: 8px;
+    margin :200px;
+
 
 }
 
@@ -37,4 +53,7 @@ h1{
 }
 
 
+button{
+    padding: 10px 20px 30px 40mm;
 
+}
